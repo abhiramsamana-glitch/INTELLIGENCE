@@ -1,0 +1,439 @@
+{
+  "profiles": {
+    "demo-user-id": {
+      "id": "demo-user-id",
+      "email": "demo@healthmate.app",
+      "fullName": "Alex Rivera",
+      "preferredUnit": "metric",
+      "heightCm": 175,
+      "dateOfBirth": "1994-06-15",
+      "gender": "other",
+      "createdAt": "2026-09-17T12:54:56.680Z",
+      "updatedAt": "2026-10-17T12:54:56.680Z"
+    },
+    "usr_1792241707978_qfhe1": {
+      "id": "usr_1792241707978_qfhe1",
+      "email": "test@healthmate.app",
+      "fullName": "Test Patient",
+      "preferredUnit": "metric",
+      "heightCm": 172,
+      "createdAt": "2026-10-17T12:55:07.978Z",
+      "updatedAt": "2026-10-17T12:55:07.978Z"
+    }
+  },
+  "measurements": [
+    {
+      "id": "meas-1",
+      "userId": "demo-user-id",
+      "weightKg": 74.8,
+      "heightCm": 175,
+      "bmi": 24.4,
+      "bmiCategory": "Normal weight",
+      "systolicBp": 118,
+      "diastolicBp": 76,
+      "restingHeartRate": 64,
+      "sleepHours": 7.2,
+      "dailySteps": 8400,
+      "waterMl": 2200,
+      "recordedAt": "2026-09-19T12:54:56.680Z",
+      "createdAt": "2026-09-19T12:54:56.680Z"
+    },
+    {
+      "id": "meas-2",
+      "userId": "demo-user-id",
+      "weightKg": 74.2,
+      "heightCm": 175,
+      "bmi": 24.2,
+      "bmiCategory": "Normal weight",
+      "systolicBp": 118,
+      "diastolicBp": 76,
+      "restingHeartRate": 64,
+      "sleepHours": 6.8,
+      "dailySteps": 9100,
+      "waterMl": 2500,
+      "recordedAt": "2026-09-26T12:54:56.680Z",
+      "createdAt": "2026-09-26T12:54:56.680Z"
+    },
+    {
+      "id": "meas-3",
+      "userId": "demo-user-id",
+      "weightKg": 73.6,
+      "heightCm": 175,
+      "bmi": 24,
+      "bmiCategory": "Normal weight",
+      "systolicBp": 118,
+      "diastolicBp": 76,
+      "restingHeartRate": 64,
+      "sleepHours": 7.5,
+      "dailySteps": 10200,
+      "waterMl": 2800,
+      "recordedAt": "2026-10-03T12:54:56.680Z",
+      "createdAt": "2026-10-03T12:54:56.680Z"
+    },
+    {
+      "id": "meas-4",
+      "userId": "demo-user-id",
+      "weightKg": 73.1,
+      "heightCm": 175,
+      "bmi": 23.9,
+      "bmiCategory": "Normal weight",
+      "systolicBp": 118,
+      "diastolicBp": 76,
+      "restingHeartRate": 64,
+      "sleepHours": 7,
+      "dailySteps": 9400,
+      "waterMl": 2600,
+      "recordedAt": "2026-10-10T12:54:56.680Z",
+      "createdAt": "2026-10-10T12:54:56.680Z"
+    },
+    {
+      "id": "meas-5",
+      "userId": "demo-user-id",
+      "weightKg": 72.8,
+      "heightCm": 175,
+      "bmi": 23.8,
+      "bmiCategory": "Normal weight",
+      "systolicBp": 118,
+      "diastolicBp": 76,
+      "restingHeartRate": 64,
+      "sleepHours": 8,
+      "dailySteps": 11200,
+      "waterMl": 3000,
+      "notes": "Morning weigh-in after light 5k jog",
+      "recordedAt": "2026-10-17T12:54:56.680Z",
+      "createdAt": "2026-10-17T12:54:56.680Z"
+    },
+    {
+      "userId": "usr_1792241707978_qfhe1",
+      "weightKg": 72.5,
+      "heightCm": 176,
+      "bmi": 23.4,
+      "bmiCategory": "Normal weight",
+      "systolicBp": 118,
+      "diastolicBp": 78,
+      "recordedAt": "2026-10-17T12:55:16.010Z",
+      "id": "meas_1792241716010_4oa9l",
+      "createdAt": "2026-10-17T12:55:16.010Z"
+    }
+  ],
+  "symptoms": [],
+  "reports": [
+    {
+      "id": "rep-1",
+      "userId": "demo-user-id",
+      "reportTitle": "Annual Comprehensive Metabolic & Lipid Panel",
+      "reportType": "Laboratory",
+      "reportDate": "2026-10-17",
+      "laboratoryName": "Biomedical Reference Laboratories",
+      "fileName": "Metabolic_Panel_Oct2025.pdf",
+      "fileType": "application/pdf",
+      "fileSizeBytes": 245000,
+      "overallSummary": "Routine annual screening demonstrating optimal kidney filtration, liver function, and normal glycemic control. Lipid markers reflect desirable HDL cholesterol with mild borderline elevation in total cholesterol.",
+      "doctorQuestions": [
+        "Should we recheck fasting lipid profile in 6 months?",
+        "Are my current dietary fiber intake and exercise targets optimal for my lipid panel?"
+      ],
+      "results": [
+        {
+          "id": "res-1",
+          "reportId": "rep-1",
+          "userId": "demo-user-id",
+          "testName": "Fasting Blood Glucose",
+          "measuredValue": "92",
+          "numericValue": 92,
+          "unit": "mg/dL",
+          "referenceRange": "70 - 99",
+          "flag": "Normal",
+          "clinicalNote": "Measures fasting blood sugar. Optimal glycemic homeostasis.",
+          "requiresManualVerification": false,
+          "createdAt": "2026-10-17T12:54:56.680Z"
+        },
+        {
+          "id": "res-2",
+          "reportId": "rep-1",
+          "userId": "demo-user-id",
+          "testName": "Total Cholesterol",
+          "measuredValue": "208",
+          "numericValue": 208,
+          "unit": "mg/dL",
+          "referenceRange": "< 200",
+          "flag": "High",
+          "clinicalNote": "Borderline elevation. Best evaluated in ratio with protective HDL.",
+          "requiresManualVerification": false,
+          "createdAt": "2026-10-17T12:54:56.680Z"
+        },
+        {
+          "id": "res-3",
+          "reportId": "rep-1",
+          "userId": "demo-user-id",
+          "testName": "HDL Cholesterol",
+          "measuredValue": "62",
+          "numericValue": 62,
+          "unit": "mg/dL",
+          "referenceRange": "> 40",
+          "flag": "Normal",
+          "clinicalNote": "High-density lipoprotein (cardioprotective). Well above target baseline.",
+          "requiresManualVerification": false,
+          "createdAt": "2026-10-17T12:54:56.680Z"
+        },
+        {
+          "id": "res-4",
+          "reportId": "rep-1",
+          "userId": "demo-user-id",
+          "testName": "eGFR",
+          "measuredValue": "105",
+          "numericValue": 105,
+          "unit": "mL/min/1.73m²",
+          "referenceRange": "> 60",
+          "flag": "Normal",
+          "clinicalNote": "Kidney filtration rate. Indicates healthy renal filtration.",
+          "requiresManualVerification": false,
+          "createdAt": "2026-10-17T12:54:56.680Z"
+        }
+      ],
+      "createdAt": "2026-10-17T12:54:56.680Z",
+      "updatedAt": "2026-10-17T12:54:56.680Z"
+    }
+  ],
+  "dietPreferences": {
+    "demo-user-id": {
+      "id": "dp-1",
+      "userId": "demo-user-id",
+      "dietaryPattern": "mediterranean",
+      "allergies": [
+        "Peanuts"
+      ],
+      "dislikedFoods": [
+        "Cilantro"
+      ],
+      "dailyCalorieTarget": 2100,
+      "dailyWaterTargetMl": 2750,
+      "dailyProteinTargetG": 120,
+      "dailyCarbsTargetG": 220,
+      "dailyFatTargetG": 70,
+      "updatedAt": "2026-10-17T12:54:56.680Z"
+    }
+  },
+  "meals": [
+    {
+      "id": "meal-1",
+      "userId": "demo-user-id",
+      "mealType": "breakfast",
+      "title": "Avocado & Poached Eggs on Sourdough",
+      "description": "Nutritious breakfast rich in monounsaturated fats and bioavailable protein.",
+      "ingredients": [
+        "2 slices artisanal sourdough",
+        "1 ripe avocado",
+        "2 large organic eggs",
+        "Pinch chili flakes",
+        "Sea salt"
+      ],
+      "instructions": [
+        "Toast sourdough until golden",
+        "Mash avocado with lemon and salt",
+        "Poach eggs for 3 minutes",
+        "Assemble and garnish"
+      ],
+      "estimatedCalories": 450,
+      "proteinG": 22,
+      "carbsG": 38,
+      "fatG": 24,
+      "isFavorite": true,
+      "createdAt": "2026-10-17T12:54:56.680Z"
+    }
+  ],
+  "nutritionLogs": [
+    {
+      "id": "nl-1",
+      "userId": "demo-user-id",
+      "loggedDate": "2026-10-17",
+      "mealType": "breakfast",
+      "foodName": "Avocado Toast & 2 Poached Eggs",
+      "calories": 450,
+      "proteinG": 22,
+      "carbsG": 38,
+      "fatG": 24,
+      "loggedAt": "2026-10-17T12:54:56.680Z"
+    },
+    {
+      "id": "nl-2",
+      "userId": "demo-user-id",
+      "loggedDate": "2026-10-17",
+      "mealType": "lunch",
+      "foodName": "Grilled Chicken & Quinoa Salad",
+      "calories": 620,
+      "proteinG": 48,
+      "carbsG": 52,
+      "fatG": 18,
+      "loggedAt": "2026-10-17T12:54:56.680Z"
+    },
+    {
+      "id": "nl-3",
+      "userId": "demo-user-id",
+      "loggedDate": "2026-10-17",
+      "mealType": "snack",
+      "foodName": "Mixed Berry Protein Shake",
+      "calories": 280,
+      "proteinG": 25,
+      "carbsG": 22,
+      "fatG": 4,
+      "loggedAt": "2026-10-17T12:54:56.680Z"
+    }
+  ],
+  "waterLogs": [
+    {
+      "id": "w-1",
+      "userId": "demo-user-id",
+      "loggedDate": "2026-10-17",
+      "amountMl": 500,
+      "loggedAt": "2026-10-17T07:54:56.680Z"
+    },
+    {
+      "id": "w-2",
+      "userId": "demo-user-id",
+      "loggedDate": "2026-10-17",
+      "amountMl": 500,
+      "loggedAt": "2026-10-17T09:54:56.680Z"
+    },
+    {
+      "id": "w-3",
+      "userId": "demo-user-id",
+      "loggedDate": "2026-10-17",
+      "amountMl": 750,
+      "loggedAt": "2026-10-17T11:54:56.680Z"
+    }
+  ],
+  "fitnessPreferences": {
+    "demo-user-id": {
+      "id": "fp-1",
+      "userId": "demo-user-id",
+      "experienceLevel": "intermediate",
+      "primaryGoal": "general_fitness",
+      "availableEquipment": [
+        "Dumbbells",
+        "Resistance Bands",
+        "Pull-up bar"
+      ],
+      "weeklyFrequencyDays": 4,
+      "physicalLimitations": "Mild lower back stiffness on heavy deadlifts",
+      "updatedAt": "2026-10-17T12:54:56.680Z"
+    }
+  },
+  "workouts": [
+    {
+      "id": "wk-1",
+      "userId": "demo-user-id",
+      "title": "Upper Body Hypertrophy & Stability",
+      "difficulty": "intermediate",
+      "targetMuscleGroups": [
+        "Chest",
+        "Upper Back",
+        "Shoulders",
+        "Core"
+      ],
+      "estimatedDurationMin": 40,
+      "exercises": [
+        {
+          "name": "Dumbbell Bench Press",
+          "sets": 3,
+          "reps": "10-12 reps",
+          "restSec": 60,
+          "instructions": "Press upward in slight arc while keeping shoulder blades retracted."
+        },
+        {
+          "name": "Single-Arm Dumbbell Row",
+          "sets": 3,
+          "reps": "10 reps/side",
+          "restSec": 60,
+          "instructions": "Pull dumbbell toward hip crease with flat neutral back."
+        },
+        {
+          "name": "Overhead Dumbbell Press",
+          "sets": 3,
+          "reps": "8-10 reps",
+          "restSec": 60,
+          "instructions": "Press overhead without excessive arching in lower back."
+        },
+        {
+          "name": "Hanging Knee Raises",
+          "sets": 3,
+          "reps": "12-15 reps",
+          "restSec": 45,
+          "instructions": "Control the descent without swinging."
+        }
+      ],
+      "warmupTips": "5 mins of arm circles, band pull-aparts, and cat-cow stretches",
+      "cooldownTips": "Chest doorframe stretch and lat stretch",
+      "isSaved": true,
+      "createdAt": "2026-10-17T12:54:56.680Z"
+    }
+  ],
+  "workoutLogs": [
+    {
+      "id": "wl-1",
+      "userId": "demo-user-id",
+      "workoutTitle": "Upper Body Hypertrophy & Stability",
+      "durationMin": 42,
+      "caloriesBurned": 310,
+      "perceivedExertion": 7,
+      "notes": "Felt strong on bench press; increased weight by 2kg on last set.",
+      "completedAt": "2026-10-16T12:54:56.681Z"
+    }
+  ],
+  "goals": [
+    {
+      "id": "g-1",
+      "userId": "demo-user-id",
+      "category": "water",
+      "title": "Daily Hydration Target",
+      "targetValue": 2750,
+      "currentValue": 1750,
+      "unit": "ml",
+      "isCompleted": false,
+      "createdAt": "2026-10-17T12:54:56.680Z",
+      "updatedAt": "2026-10-17T12:54:56.680Z"
+    },
+    {
+      "id": "g-2",
+      "userId": "demo-user-id",
+      "category": "activity",
+      "title": "Weekly Workouts",
+      "targetValue": 4,
+      "currentValue": 3,
+      "unit": "sessions",
+      "isCompleted": false,
+      "createdAt": "2026-10-17T12:54:56.680Z",
+      "updatedAt": "2026-10-17T12:54:56.680Z"
+    },
+    {
+      "id": "g-3",
+      "userId": "demo-user-id",
+      "category": "weight",
+      "title": "Maintain Healthy BMI (23.5)",
+      "targetValue": 72,
+      "currentValue": 72.8,
+      "unit": "kg",
+      "isCompleted": false,
+      "createdAt": "2026-10-17T12:54:56.680Z",
+      "updatedAt": "2026-10-17T12:54:56.680Z"
+    }
+  ],
+  "consents": {
+    "demo-user-id": {
+      "id": "c-1",
+      "userId": "demo-user-id",
+      "aiProcessingConsented": true,
+      "reportOcrConsented": true,
+      "analyticsConsented": true,
+      "consentedAt": "2026-09-17T12:54:56.680Z",
+      "updatedAt": "2026-10-17T12:54:56.680Z"
+    }
+  },
+  "otps": {},
+  "sessions": {
+    "hm_sess_ig2g5fq5fas_1792241707978": {
+      "userId": "usr_1792241707978_qfhe1",
+      "expiresAt": 1794833707978
+    }
+  }
+}

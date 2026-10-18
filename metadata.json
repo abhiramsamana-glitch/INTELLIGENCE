@@ -1,0 +1,6 @@
+{
+  "name": "HealthMate",
+  "description": "Comprehensive AI-Powered Health & Wellness Platform with symptom guidance, nutrition & workout planning, BMI tracking, and medical report analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
